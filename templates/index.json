@@ -1,7 +1,18 @@
 {
   "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "text": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store"  
+          }
+        }
+      }
+    }
   },
   "order": [
-
+    "announcement-bar"
   ]
 }
